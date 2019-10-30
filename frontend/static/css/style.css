@@ -1,0 +1,24 @@
+.form-container{
+        width: 50%;
+        margin: 125px auto auto auto;
+        padding: 45px 25px 45px 25px;
+        box-shadow: 1px 1px 5px 1px #dedede;
+}
+body{
+    margin: 45px;
+    position: relative;
+}
+.posts-list{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-gap: 5px;
+}
+.btn-right{
+    top: 0;
+    position: absolute;
+    right: 0;
+    color: white;
+}
+.btn a {
+    color: white;
+}
